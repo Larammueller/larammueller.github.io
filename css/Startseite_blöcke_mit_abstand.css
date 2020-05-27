@@ -1,0 +1,177 @@
+/* BLÖCKE HABEN EINEN ABSTAND MIT WHITESPACE ZWISCHEN DEN FARBEN */
+
+body {
+  margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+
+    background-color: white;
+  }
+
+  header span a{
+    text-decoration: none;
+    color: black;
+
+    font-size: 20px;
+    font-family: 'Sen', sans-serif;
+  }
+
+nav {
+    max-width: 100%;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 50px - 10px);
+
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+
+nav a {
+    text-decoration: none;
+}
+
+div {
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  position: relative;
+
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+}
+
+div.col-1 {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  float: left;
+
+  padding-right: 5px;
+}
+
+div.col-2 {
+  width:  50%;
+  height: 100%;
+  margin: 0;
+  float: right;
+
+  padding-left: 5px;
+}
+
+div.col-1 div.row-1 {
+    width: 100%;
+    height: 62%;
+    margin: 0;
+
+    padding-bottom: 5px;
+}
+
+div.col-1 div.row-2 {
+  width: 100%;
+  height: 38%;
+  margin: 0;
+}
+
+div.horizontal-half-about-me {
+  width: 60%;
+  height: 100%;
+  margin: 0;
+  float:left;
+
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+div.horizontal-half-contact {
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  float:right;
+
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+div.col-2 div.row-1 {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+}
+
+div.horizontal-half-projects {
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  float: left;
+
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+div.horizontal-half-3d-modelling {
+  width: 60%;
+  height: 100%;
+  margin: 0;
+  float:right;
+
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+div.col-2 div.row-2 {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+
+  padding-top: 5px;
+}
+
+nav div.quad {
+  background-clip: content-box;   /* clips the background at the edge of the content box */
+}
+
+/* Text von spans positionieren */
+
+nav span{
+  position: absolute;
+}
+
+div.col-1 div.row-1 span {    /* hello. i'm lara. */
+  transform: rotate(-90deg) translateY(100%);
+  left: 20px;
+  bottom: 20px;
+  transform-origin: 0 100%;
+}
+
+div.col-1 div.horizontal-half-about-me span {
+  right: 20px;
+  top: 20px;
+  transform-origin: 100% 0;
+  }
+
+div.col-1 div.horizontal-half-contact span{
+  right: 20px;
+  bottom: 20px;
+  transform-origin: 100% 0;
+  transform: rotate(-90deg) translateX(60%) translateY(-85%);   /* rotate(270deg) vorher */
+}
+
+div.col-2 div.horizontal-half-projects span {
+  left: 20px;
+  top: 20px;
+}
+
+div.col-2 div.horizontal-half-3d-modelling span {
+  left: 20px;
+  bottom: 20px;
+  transform: rotate(90deg) translateX(-43%) translateY(187.5%);
+}
+
+div.col-2 div.row-2 span {    /* game dev */
+  right: 20px;
+  bottom: 20px;
+}

@@ -1,0 +1,46 @@
+/* Farbe: WEIß, erst beiim Hovern: lila, blau, grün, gelb, orange, pink  http://colrd.com/palette/50128/ */
+
+/* HI. I'M LARA. */
+div.col-1 div.row-1:hover {
+    background-color: #D7BDE2; /* lila */
+}
+
+/* ABOUT ME */
+div.horizontal-half-about-me:hover {
+  background-color: #D6EAF8;    /* pink */
+}
+
+/* CONTACT */
+div.horizontal-half-contact:hover {
+  background-color: #FFF3E0;    /* orange */
+}
+
+/* PROJECTS */
+div.horizontal-half-projects:hover {
+  background-color: #FCF3CF;    /* blau */
+}
+
+/* 3D MODELLING */
+div.horizontal-half-3d-modelling:hover {
+  background-color: #FFEBEE;    /* grün */
+}
+
+/* GAME DEV */
+div.col-2 div.row-2:hover {
+  background-color: #D5F5E3;    /* gelb */
+
+}
+
+/* TEXT FARBEN */
+nav a {
+  color: #212F3D;
+}
+nav a:hover {
+  color: black;
+}
+
+/* HOVERN ÜBER DIE BLÖCKE ÄNDERT FARBE */
+nav div.quad {
+  background-color: white;
+  transition: all .4s ease-in;
+}

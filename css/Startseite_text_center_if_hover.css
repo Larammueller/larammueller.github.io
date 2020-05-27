@@ -1,0 +1,44 @@
+/* HOVERN ÜBER BLÖCKE ZENTRIERT DEN TEXT */
+
+div.col-1 div.row-1:hover > span {
+  transform: rotate(360deg);
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+div.col-1 div.horizontal-half-about-me:hover > span{
+  transform: translateY(75%);
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+div.col-1 div.horizontal-half-contact:hover > span {
+  transform: rotate(0deg) translateX(5%) translateY(-5%);
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
+
+div.col-2 div.horizontal-half-projects:hover > span {
+  transform: translateY(75%);
+  text-align: center;
+  width: 85%;
+  height: 50%;
+  transform-origin: 100% 0;
+}
+
+div.col-2 div.horizontal-half-3d-modelling:hover > span {
+  transform: rotate(0deg) translateX(-3%) translateY(-10%);
+  text-align: center;
+  width: 100%;
+  height: 50%;
+
+}
+
+div.col-2 div.row-2:hover > span {
+  text-align: center;
+  width: 100%;
+  height: 50%;
+}
