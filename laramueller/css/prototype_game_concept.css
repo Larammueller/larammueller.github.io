@@ -17,15 +17,13 @@ header {
 header span a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
-  }
-  header span {
-    color: black;
+
     font-size: 20px;
   }
 
   /*
 main {
+  top, right, bottom, left.
   margin: 20px 50px 50px 50px;
 }
 */
@@ -51,9 +49,8 @@ div.text {
   font-size: 70px;
   font-weight: 10;
   line-height: 1.2;
-  margin: 20px 50px 50px 50px;
-  /*padding: 50px 0px 50px 0px;*/
-  padding: 50px;
+  margin: 20px 50px 0px 50px;
+  padding: 0px 0px 0px 0px;
   text-align: justify;
 }
 
@@ -65,12 +62,48 @@ div.text_background_blue {
   background-color:  #D6EAF8;
 }
 
+
+/*
 div.img-wrapper {
   margin-top: 50px;
+  display:inline-block;
  }
 
 img {
-  max-width: 100%;
-  height: auto;
-  width: auto\9; /* ie8 */
+
+  width:  309px;
+  height: 422px;
+  object-fit: cover;
 }
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.column_1 {
+  float: left;
+  width: 25%;
+  padding: 50px 5px 5px 5px;
+}
+
+.column_2 {
+  float: left;
+  width: 50%;
+  padding: 5px 5px 50px 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+

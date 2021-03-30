@@ -20,6 +20,10 @@ header span a{
 
     font-size: 20px;
   }
+  header span {
+    color: black;
+    font-size: 20px;
+  }
 
 main {
   margin: 20px 50px 50px 50px;
@@ -28,9 +32,35 @@ main {
 div.headline {
   font-size: 230px;
   font-weight: 500;
-  color: black;     /* evtl. eher black */
+  color: #212F3D;     /* evtl. eher black */
 }
 
+div.text {
+  color: #212F3D;
+  font-size: 20px;
+  font-weight: 10;
+  line-height: 1.2;
+
+  padding: 0px 0px 50px 0px;
+  /*padding: 50px;*/
+  text-align: justify;
+}
+
+div.text_background {
+  background-color: white;
+}
+
+div.img-wrapper {
+  margin-top: 50px;
+ }
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+/*
 div.headline a {
   color: #212F3D;
   text-decoration: none;
@@ -39,3 +69,4 @@ div.headline a {
 div.headline a:hover {
   text-decoration: line-through;
 }
+*/

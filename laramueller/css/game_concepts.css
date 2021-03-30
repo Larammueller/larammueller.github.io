@@ -20,16 +20,31 @@ header span a{
 
     font-size: 20px;
   }
+  header span {
+    color: black;
+    font-size: 20px;
+  }
 
 main {
-  margin: 20px 50px 50px 50px;
+  margin: 0px 50px 50px 50px;
 }
 
 div.headline {
   font-size: 230px;
   font-weight: 500;
-  color: #212F3D;     /* evtl. eher black */
+  color: black;     /* evtl. eher black */
 }
+
+div.headline a {
+  color: #212F3D;
+  text-decoration: none;
+}
+
+div.headline a:hover {
+  text-decoration: line-through;
+}
+
+
  div.img-wrapper {
   margin-top: 50px;
  }

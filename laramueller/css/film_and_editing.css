@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Sen', sans-serif;
 
-  background-color: #D6EAF8;
+  background-color: #FCF3CF;
 }
 
 header {
@@ -17,16 +17,17 @@ header {
 header span a{
     text-decoration: none;
     color: black;
+
     font-size: 20px;
   }
-  header span {
+ header span {
     color: black;
     font-size: 20px;
-  }
+}
 
-  /*
+/*
 main {
-  margin: 20px 50px 50px 50px;
+  margin: 0px 50px 50px 50px;
 }
 */
 
@@ -34,16 +35,13 @@ div.headline {
   font-size: 230px;
   font-weight: 500;
   margin: 20px 50px 50px 50px;
-  color: black;     /* evtl. eher black */
+  color: #212F3D;     /* evtl. eher black */
 }
 
-div.headline a {
+div.headline span {
   color: #212F3D;
-  text-decoration: none;
-}
-
-div.headline a:hover {
-  text-decoration: line-through;
+  font-size: 10px;
+  font-weight: 10;
 }
 
 div.text {
@@ -51,9 +49,6 @@ div.text {
   font-size: 70px;
   font-weight: 10;
   line-height: 1.2;
-  margin: 20px 50px 50px 50px;
-  /*padding: 50px 0px 50px 0px;*/
-  padding: 50px;
   text-align: justify;
 }
 
@@ -61,16 +56,32 @@ div.text_background_white {
   background-color: white;
 }
 
-div.text_background_blue {
-  background-color:  #D6EAF8;
+.video-wrapper iframe,
+.video-wrapper object,
+.video-wrapper embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
-div.img-wrapper {
-  margin-top: 50px;
- }
+iframe {
+  border: none;
+}
 
-img {
-  max-width: 100%;
-  height: auto;
-  width: auto\9; /* ie8 */
+div.text {
+  color: #212F3D;
+  font-size: 13px;
+  font-weight: 10;
+
+  margin-top: 0px;
+  padding-top: 0px;
 }

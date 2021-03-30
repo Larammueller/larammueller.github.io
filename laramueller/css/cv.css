@@ -1,9 +1,16 @@
 body {
   margin: 0;
   font-family: 'Sen', sans-serif;
-
-  background-color: #D6EAF8;
+  background-color: white;
 }
+
+/*
+div.back-color {
+  background-color: #D7BDE2;
+  margin-right: 10px;
+  marg
+}
+*/
 
 header {
     width: 100%;
@@ -21,12 +28,30 @@ header span a{
     font-size: 20px;
   }
 
+  /*
 main {
   margin: 20px 50px 50px 50px;
-}
+} 
+*/
 
 div.headline {
   font-size: 230px;
   font-weight: 500;
+  margin: 20px 50px 50px 50px;
   color: #212F3D;     /* evtl. eher black */
+}
+
+div.text {
+  color: #212F3D;
+  font-size: 70px;
+  font-weight: 10;
+  line-height: 1.2;
+  margin: 20px 50px 50px 50px;
+  /*padding: 50px 0px 50px 0px;*/
+  padding: 50px;
+  text-align: justify;
+}
+
+div.text_background {
+  background-color: white;
 }
