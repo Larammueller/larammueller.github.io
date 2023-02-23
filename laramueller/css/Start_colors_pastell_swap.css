@@ -17,12 +17,12 @@ div.horizontal-half-contact:hover {
 
 /* PROJECTS */
 div.horizontal-half-projects:hover {
-  background-color: #FCF3CF;    /* blau */
+  background-color: #FFEBEE;    /* blau */ 
 }
 
 /* 3D MODELLING */
 div.horizontal-half-3d-modelling:hover {
-  background-color: #FFEBEE;    /* grün */
+  background-color: #FCF3CF;    /* grün */
 }
 
 /* GAME DEV */
