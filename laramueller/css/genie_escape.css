@@ -46,6 +46,15 @@ div.text {
   text-align: justify;
 }
 
+div.text a {
+  color: black;
+  text-decoration: none;
+}
+
+div.text a:hover {
+  text-decoration: line-through;
+}
+
 div.text_background {
   background-color: white;
 }
