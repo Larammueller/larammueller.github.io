@@ -105,12 +105,3 @@ div.text_background_white {
 iframe {
   border: none;
 }
-
-div.text {
-  color: #212F3D;
-  font-size: 13px;
-  font-weight: 10;
-
-  margin-top: 0px;
-  padding-top: 0px;
-}
