@@ -44,11 +44,22 @@ div.headline span {
   font-weight: 10;
 }
 
+/*div.text {
+  color: #212F3D;
+  font-size: 70px;
+  font-weight: 10;
+  line-height: 1.2;
+  text-align: justify;
+}*/
+
 div.text {
   color: #212F3D;
   font-size: 70px;
   font-weight: 10;
   line-height: 1.2;
+  margin: 20px 50px 50px 50px;
+  /*padding: 50px 0px 50px 0px;*/
+  padding: 50px;
   text-align: justify;
 }
 

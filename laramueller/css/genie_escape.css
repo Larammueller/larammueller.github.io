@@ -37,12 +37,12 @@ div.headline {
 
 div.text {
   color: #212F3D;
-  font-size: 20px;
+  font-size: 70px;
   font-weight: 10;
   line-height: 1.2;
-
-  padding: 0px 0px 50px 0px;
-  /*padding: 50px;*/
+  margin: 20px 50px 50px 50px;
+  /*padding: 50px 0px 50px 0px;*/
+  padding: 50px;
   text-align: justify;
 }
 
