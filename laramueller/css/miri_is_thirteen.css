@@ -38,6 +38,15 @@ div.headline {
   color: #212F3D;     /* evtl. eher black */
 }
 
+div.headline a {
+  color: #212F3D;
+  text-decoration: none;
+}
+
+div.headline a:hover {
+  text-decoration: line-through;
+}
+
 div.headline span {
   color: #212F3D;
   font-size: 10px;
